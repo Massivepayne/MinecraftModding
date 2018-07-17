@@ -1,0 +1,16 @@
+[
+{
+  "modid": "lm",
+  "name": "Learning to mod",
+  "description": "Me learning to mod.",
+  "version": "${0.1}",
+  "mcversion": "${1.12.2}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Loga2"],
+  "credits": "The Forge and FML guys, for making this example",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

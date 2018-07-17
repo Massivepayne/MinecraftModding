@@ -1,0 +1,32 @@
+
+//items
+item.obsidian_ingot.name=Obsidian Ingot
+item.Steel_ingot.name=Steel Ingot
+item.powdered_coal.name=Powdered Coal
+item.pulverized_iron.name=Pulverized Iron
+item.dark_iron_powder.name=Dark Iron Powder
+
+
+//blocks
+tile.hardened_dirt_block.name=Hardened Obsidian
+
+
+//tools
+item.obsidian_sword.name=Obsidian Sword
+item.obsidian_pickaxe.name=Obsidian Pickaxe
+item.obsidian_axe.name=Obsidian Axe
+item.obsidian_shovel.name=Obsidian Shovel
+item.obsidian_hoe.name=Obsidian Hoe
+
+
+//armour
+item.obsidian_helmet.name=Obsidian Helmet
+item.obsidian_chestplate.name=Obsidian Chestplate
+item.obsidian_leggings.name=Obsidian leggings
+item.obsidian_boots.name=Obsidian Boots
+
+
+//ores
+tile.ore_overworld_copper.name=Copper Ore
+
+

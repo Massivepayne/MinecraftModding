@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    
+    "ingredients":
+    [
+    
+    {
+        "item": "minecraft:coal"
+    }
+    
+    ],
+    
+    "result":
+    {
+        "item": "lm:powdered_coal",
+        "count": 1
+    }
+}   
