@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "RBR",
+        "BBB",
+        "RBR"
+    ],
+     
+    "key":
+    {
+            "R":
+            {
+                "item": "lm:obsidian_ingot"
+            },
+            
+            "B":
+            {
+                "item": "minecraft:iron_bars"
+            }
+    },
+    
+    "result":
+    {
+        "item": "lm:hardened_dirt_block",
+        "count": 1       
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "variants":
+    {
+        "variants=copper": { "model": "lm:ore_nether_copper"}
+    }
+
+}
