@@ -50,6 +50,12 @@ public class BlockOres extends Block implements IHasModel, IMetalName
 
 	
 	@Override
+	public int getMetaFromState(IBlockState state) 
+	{
+		return ((EnumHandler.EnumType)state.getValue(VARIANT)).getMeta();
+	}
+	
+	@Override
 	public IBlockState getStateFromMeta(int meta)
 	{
 		return this.getDefaultState().withProperty(VARIANT, EnumHandler.EnumType.byMetadata(meta));
@@ -66,12 +72,11 @@ public class BlockOres extends Block implements IHasModel, IMetalName
 	@Override
 	public void getSubBlocks(CreativeTabs itemIn, NonNullList<ItemStack> items)
 	{
-		for(EnumHandler.EnumType variant : EnumHandler.EnumType.values()) {
+		for(EnumHandler.EnumType variant : EnumHandler.EnumType.values()) 
+		{
 			items.add(new ItemStack(this, 1, variant.getMeta()));
 		}
 	}
-	
-	
 	
 	@Override
 	protected BlockStateContainer createBlockState() 
@@ -90,8 +95,9 @@ public class BlockOres extends Block implements IHasModel, IMetalName
 	@Override
 	public void registerModels()
 	{
-		for(int i = 0; i < EnumHandler.EnumType.values().length; i++) {
-			Main.proxy.registerVariantRenderer(Item.getItemFromBlock(this), i, "ore_" + this.dimension + "_" + EnumHandler.EnumType.values()[i], "inventory");
+		for(int i = 0; i < EnumHandler.EnumType.values().length; i++)
+		{
+			Main.proxy.registerVariantRenderer(Item.getItemFromBlock(this), i, "ore_" + this.dimension + "_" + EnumHandler.EnumType.values()[i].getName(), "inventory");
 		}
 	}
 }
